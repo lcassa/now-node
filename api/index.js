@@ -1,6 +1,6 @@
 const Express = require('express')
 const App = Express()
-const PORT = 3000
+const PORT = 80
 
 App.get('/clients', async function (req, res) {
     res.json({ user: 'test' })
