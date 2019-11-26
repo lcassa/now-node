@@ -1,9 +1,0 @@
-{
-    "name": "now-node",
-    "builds": [
-        {
-            "src": "api/package.json",
-            "use": "@now/node"
-        }
-    ]
-}
