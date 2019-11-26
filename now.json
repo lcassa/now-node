@@ -2,11 +2,7 @@
     "name": "now-node",
     "builds": [
         {
-            "src": "backend/package.json",
-            "use": "@now/node"
-        },
-        {
-            "src": "backend/*.js",
+            "src": "api/package.json",
             "use": "@now/node"
         }
     ]
