@@ -1,0 +1,13 @@
+{
+    "name": "now-node",
+    "builds": [
+        {
+            "src": "backend/package.json",
+            "use": "@now/node"
+        },
+        {
+            "src": "backend/*.js",
+            "use": "@now/node"
+        }
+    ]
+}
